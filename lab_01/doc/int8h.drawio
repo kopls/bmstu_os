@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
   <diagram name="Страница-1" id="OJJXepcw6RT9KaOzWur1">
-    <mxGraphModel dx="324" dy="189" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0" adaptiveColors="none">
+    <mxGraphModel dx="1126" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,28 +27,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;" value="Начало" vertex="1">
-          <mxGeometry height="60" width="100" x="360" y="220" as="geometry" />
+          <mxGeometry height="60" width="100" x="360" y="183" as="geometry" />
         </mxCell>
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-7" edge="1" parent="1" source="5B1XlDwKC4VtuvU7IbsR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="5B1XlDwKC4VtuvU7IbsR-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-5" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;" value="Вызов подпрограммы sub_1" vertex="1">
-          <mxGeometry height="60" width="120" x="350" y="310" as="geometry" />
+          <mxGeometry height="60" width="120" x="350" y="270" as="geometry" />
         </mxCell>
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-10" edge="1" parent="1" source="5B1XlDwKC4VtuvU7IbsR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="5B1XlDwKC4VtuvU7IbsR-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Сохранение ES, DS, AX, DX" vertex="1">
-          <mxGeometry height="60" width="120" x="350" y="410" as="geometry" />
+          <mxGeometry height="60" width="120" x="350" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="5B1XlDwKC4VtuvU7IbsR-12" edge="1" parent="1" source="5B1XlDwKC4VtuvU7IbsR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="5B1XlDwKC4VtuvU7IbsR-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5B1XlDwKC4VtuvU7IbsR-12" edge="1" parent="1" source="5B1XlDwKC4VtuvU7IbsR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpEtKFrytQTYMlLSxB_x-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="527" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="5B1XlDwKC4VtuvU7IbsR-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Поместить значения в регистры DS = 40h, AX = 0, ES = 0" vertex="1">
-          <mxGeometry height="60" width="120" x="350" y="499" as="geometry" />
+        <mxCell id="5B1XlDwKC4VtuvU7IbsR-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Поместить 40h в регистр DS" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="5B1XlDwKC4VtuvU7IbsR-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Инкремент по адресу DS:[6Ch]" vertex="1">
-          <mxGeometry height="60" width="120" x="350" y="586" as="geometry" />
+        <mxCell id="5B1XlDwKC4VtuvU7IbsR-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Инкремент слова счетчика времени по адресу DS:[6Ch]" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="592" as="geometry" />
         </mxCell>
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-14" edge="1" parent="1" source="5B1XlDwKC4VtuvU7IbsR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="z4Ds5KdeD2N8wObnBeZC-28">
           <mxGeometry relative="1" as="geometry">
@@ -64,7 +66,7 @@
             <mxPoint x="410" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5B1XlDwKC4VtuvU7IbsR-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Инкремент по адресу DS:[6Eh]" vertex="1">
+        <mxCell id="5B1XlDwKC4VtuvU7IbsR-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Инкремент слова счетчика времени по адресу DS:[6Eh]" vertex="1">
           <mxGeometry height="60" width="120" x="506" y="772" as="geometry" />
         </mxCell>
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="Да" vertex="1">
@@ -97,7 +99,7 @@
             <mxPoint x="600" y="1530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5B1XlDwKC4VtuvU7IbsR-22" parent="1" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Значение по адресу&lt;br&gt;&lt;div&gt;DS:[6E] == 18h?&lt;/div&gt;" vertex="1">
+        <mxCell id="5B1XlDwKC4VtuvU7IbsR-22" parent="1" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Значение слова счетчика времени по адресу&lt;br&gt;&lt;div&gt;DS:[6Eh] == 18h?&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="170" x="325" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-29" edge="1" parent="1" source="5B1XlDwKC4VtuvU7IbsR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="5B1XlDwKC4VtuvU7IbsR-28">
@@ -117,7 +119,7 @@
             <mxPoint x="590" y="1930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5B1XlDwKC4VtuvU7IbsR-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Значение по адресу&lt;br&gt;&lt;div&gt;DS:[6Сh] == B0h?&lt;/div&gt;" vertex="1">
+        <mxCell id="5B1XlDwKC4VtuvU7IbsR-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Значение слова счетчика времени по адресу&lt;br&gt;&lt;div&gt;DS:[6Сh] == B0h?&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="170" x="495" y="1510" as="geometry" />
         </mxCell>
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="Да" vertex="1">
@@ -126,7 +128,7 @@
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-33" edge="1" parent="1" source="5B1XlDwKC4VtuvU7IbsR-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="5B1XlDwKC4VtuvU7IbsR-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5B1XlDwKC4VtuvU7IbsR-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Обнулить значение по адресу DS:[6Ch] и DS:[6Eh]" vertex="1">
+        <mxCell id="5B1XlDwKC4VtuvU7IbsR-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Обнулить значения слов по адресам DS:[6Ch] и DS:[6Eh]" vertex="1">
           <mxGeometry height="60" width="120" x="665" y="1600" as="geometry" />
         </mxCell>
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="Да" vertex="1">
@@ -135,7 +137,7 @@
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-35" edge="1" parent="1" source="5B1XlDwKC4VtuvU7IbsR-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="5B1XlDwKC4VtuvU7IbsR-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5B1XlDwKC4VtuvU7IbsR-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Поместить значение 1 по адресу DS:[70h]" vertex="1">
+        <mxCell id="5B1XlDwKC4VtuvU7IbsR-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Поместить значение 1 в байт по адресу DS:[70h]" vertex="1">
           <mxGeometry height="60" width="120" x="665" y="1690" as="geometry" />
         </mxCell>
         <mxCell id="5B1XlDwKC4VtuvU7IbsR-37" edge="1" parent="1" source="5B1XlDwKC4VtuvU7IbsR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;">
@@ -171,7 +173,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6_q9Ui_pxg9dqGZj-ntg-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Декремент счетчика времени до отключения моторчика дисковода по адресу&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; DS:[40h]&lt;/div&gt;" vertex="1">
+        <mxCell id="6_q9Ui_pxg9dqGZj-ntg-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Декремент байта счетчика времени до отключения моторчика дисковода по адресу&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; DS:[40h]&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="136" x="344.5" y="2355" as="geometry" />
         </mxCell>
         <mxCell id="6_q9Ui_pxg9dqGZj-ntg-6" edge="1" parent="1" source="6_q9Ui_pxg9dqGZj-ntg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;entryX=0.518;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" target="6_q9Ui_pxg9dqGZj-ntg-5">
@@ -193,8 +195,8 @@
             <mxPoint x="411" y="2684" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6_q9Ui_pxg9dqGZj-ntg-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Счетчик времени до отключения моторчика дисковода по адресу DS:[40h] == 0?" vertex="1">
-          <mxGeometry height="125" width="184" x="320" y="2450" as="geometry" />
+        <mxCell id="6_q9Ui_pxg9dqGZj-ntg-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Байт счетчика времени до отключения моторчика дисковода по адресу DS:[40h] == 0?" vertex="1">
+          <mxGeometry height="125" width="193" x="316.75" y="2450" as="geometry" />
         </mxCell>
         <mxCell id="6_q9Ui_pxg9dqGZj-ntg-7" edge="1" parent="1" source="6_q9Ui_pxg9dqGZj-ntg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="6_q9Ui_pxg9dqGZj-ntg-8">
           <mxGeometry relative="1" as="geometry">
@@ -223,7 +225,7 @@
             <mxPoint x="260" y="2843" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6_q9Ui_pxg9dqGZj-ntg-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Установлен 2 бит по адресу DS:[314h]?" vertex="1">
+        <mxCell id="6_q9Ui_pxg9dqGZj-ntg-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Установлен 2 бит в слове по адресу DS:[314h]?" vertex="1">
           <mxGeometry height="120" width="180" x="320" y="2769" as="geometry" />
         </mxCell>
         <mxCell id="6_q9Ui_pxg9dqGZj-ntg-18" edge="1" parent="1" source="6_q9Ui_pxg9dqGZj-ntg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;labelBackgroundColor=none;fontColor=default;">
@@ -300,13 +302,21 @@
           <mxGeometry height="60" width="120" x="353.25" y="3826" as="geometry" />
         </mxCell>
         <mxCell id="z4Ds5KdeD2N8wObnBeZC-15" edge="1" parent="1" source="z4Ds5KdeD2N8wObnBeZC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="z4Ds5KdeD2N8wObnBeZC-14">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="3984" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="z4Ds5KdeD2N8wObnBeZC-18" edge="1" parent="1" source="z4Ds5KdeD2N8wObnBeZC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;labelBackgroundColor=none;fontColor=default;" target="z4Ds5KdeD2N8wObnBeZC-17">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="3984" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="z4Ds5KdeD2N8wObnBeZC-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Установлен DF либо старший бит IOPL по адресу DS:[314h]?" vertex="1">
-          <mxGeometry height="140" width="196.5" x="315" y="3900" as="geometry" />
+        <mxCell id="z4Ds5KdeD2N8wObnBeZC-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Установлен DF либо старший бит IOPL в слове по адресу DS:[314h]?" vertex="1">
+          <mxGeometry height="152" width="219" x="303" y="3908" as="geometry" />
         </mxCell>
         <mxCell id="z4Ds5KdeD2N8wObnBeZC-20" edge="1" parent="1" source="z4Ds5KdeD2N8wObnBeZC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;labelBackgroundColor=none;fontColor=default;">
           <mxGeometry relative="1" as="geometry">
@@ -320,7 +330,7 @@
           <mxGeometry height="60" width="120" x="520" y="4040" as="geometry" />
         </mxCell>
         <mxCell id="z4Ds5KdeD2N8wObnBeZC-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="Да" vertex="1">
-          <mxGeometry height="30" width="60" x="500" y="3940" as="geometry" />
+          <mxGeometry height="30" width="60" x="506" y="3956" as="geometry" />
         </mxCell>
         <mxCell id="z4Ds5KdeD2N8wObnBeZC-19" edge="1" parent="1" source="z4Ds5KdeD2N8wObnBeZC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="z4Ds5KdeD2N8wObnBeZC-21">
           <mxGeometry relative="1" as="geometry">
@@ -331,7 +341,7 @@
             <mxPoint x="410" y="4190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z4Ds5KdeD2N8wObnBeZC-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Сбросить 9-ый бит по адресу DS:[314h]" vertex="1">
+        <mxCell id="z4Ds5KdeD2N8wObnBeZC-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Атомарно сбросить 9-ый бит в слове по адресу DS:[314h]" vertex="1">
           <mxGeometry height="60" width="120" x="190" y="4040" as="geometry" />
         </mxCell>
         <mxCell id="z4Ds5KdeD2N8wObnBeZC-23" edge="1" parent="1" source="z4Ds5KdeD2N8wObnBeZC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="z4Ds5KdeD2N8wObnBeZC-22">
@@ -349,8 +359,8 @@
         <mxCell id="z4Ds5KdeD2N8wObnBeZC-26" edge="1" parent="1" source="z4Ds5KdeD2N8wObnBeZC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" target="z4Ds5KdeD2N8wObnBeZC-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z4Ds5KdeD2N8wObnBeZC-28" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Значение по адресу DS:[6Ch] == 0?" vertex="1">
-          <mxGeometry height="130" width="129.5" x="344.5" y="680" as="geometry" />
+        <mxCell id="z4Ds5KdeD2N8wObnBeZC-28" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Значение слова счетчика времени по адресу DS:[6Ch] == 0?" vertex="1">
+          <mxGeometry height="129" width="154.5" x="332.75" y="679" as="geometry" />
         </mxCell>
         <mxCell id="-e5kmBkix5hy8UML6XLN-2" edge="1" parent="1" source="-e5kmBkix5hy8UML6XLN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5B1XlDwKC4VtuvU7IbsR-38">
           <mxGeometry relative="1" as="geometry" />
@@ -379,10 +389,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-e5kmBkix5hy8UML6XLN-10" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="45" width="50" x="511.5" y="506.5" as="geometry" />
+          <mxGeometry height="45" width="50" x="511.5" y="447.5" as="geometry" />
         </mxCell>
         <mxCell id="-e5kmBkix5hy8UML6XLN-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="40h - адрес области данных BIOS" vertex="1">
-          <mxGeometry height="30" width="138" x="530.5" y="514" as="geometry" />
+          <mxGeometry height="30" width="138" x="534" y="455" as="geometry" />
         </mxCell>
         <mxCell id="-e5kmBkix5hy8UML6XLN-15" edge="1" parent="1" source="-e5kmBkix5hy8UML6XLN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" target="6_q9Ui_pxg9dqGZj-ntg-20">
           <mxGeometry relative="1" as="geometry" />
@@ -416,6 +426,18 @@
         </mxCell>
         <mxCell id="-e5kmBkix5hy8UML6XLN-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Восстановить AX" vertex="1">
           <mxGeometry height="36" width="78" x="373.5" y="2706" as="geometry" />
+        </mxCell>
+        <mxCell id="JpEtKFrytQTYMlLSxB_x-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Поместить 0h в регистр ES" vertex="1">
+          <mxGeometry height="52" width="120" x="350" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="JpEtKFrytQTYMlLSxB_x-4" edge="1" parent="1" source="JpEtKFrytQTYMlLSxB_x-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" target="JpEtKFrytQTYMlLSxB_x-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpEtKFrytQTYMlLSxB_x-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="511.5" y="523.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JpEtKFrytQTYMlLSxB_x-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0h - адрес области таблицы векторов прерываний" vertex="1">
+          <mxGeometry height="30" width="138" x="534" y="531" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
